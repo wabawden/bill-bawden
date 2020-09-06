@@ -1,0 +1,21 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: $light-gray;
+    text-align: center;
+  }
+
+  .footer-icons {
+      list-style: none;
+      li {
+          display: inline;
+          
+      }
+      a, a:hover {
+          border: none;
+          margin-left: 16px;
+          margin-right: 16px;
+      }
+  }

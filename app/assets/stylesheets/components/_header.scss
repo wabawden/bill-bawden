@@ -1,0 +1,22 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: $light-gray;
+    text-align: center;
+    padding-top: 16px;
+  }
+
+.header-links {
+    list-style: none;
+    li {
+        display: inline;
+        
+    }
+    a , a:active, a:visited {
+        border: none;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
