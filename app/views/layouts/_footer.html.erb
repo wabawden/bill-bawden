@@ -1,21 +1,31 @@
 <footer>
     <div class="footer">
         <ul class="footer-icons">
-            <%= mail_to "bawden@hey.com" do %>
-                <li><i class="fas fa-envelope-square fa-2x"></i></li>
-            <% end %>
-            <%= link_to "https://www.linkedin.com/in/billbawden/" do %>
-                <li><i class="fab fa-linkedin fa-2x"></i></li>
-            <% end %>
-            <%= link_to "https://github.com/wabawden" do %>
-                <li><i class="fab fa-github-square fa-2x"></i></li>
-            <% end %>
-            <%= link_to "http://theprairielines.bandcamp.com" do %>
-                <li><i class="fab fa-bandcamp fa-2x"></i></li>
-            <% end %>
-            <%= link_to "https://medium.com/@billbawden" do %>
-                <li><i class="fab fa-medium fa-2x"></i></li>
-            <% end %>
+            <li>
+                <%= mail_to "bawden@hey.com" do %>
+                <i class="fas fa-envelope-square fa-2x"></i>
+                <% end %>
+            </li>
+            <li>
+                <%= link_to "https://www.linkedin.com/in/billbawden/", target: :_blank do %>
+                <i class="fab fa-linkedin fa-2x"></i>
+                <% end %>
+            </li>
+            <li>
+                <%= link_to "https://github.com/wabawden", target: :_blank do %>
+                <i class="fab fa-github-square fa-2x"></i>
+                <% end %>
+            </li>
+            <li>
+                <%= link_to "http://theprairielines.bandcamp.com", target: :_blank do %>
+                <i class="fab fa-bandcamp fa-2x"></i>
+                <% end %>
+            </li>
+            <li>
+                <%= link_to "https://medium.com/@billbawden", target: :_blank do %>
+                <i class="fab fa-medium fa-2x"></i>
+                <% end %>
+            </li>
         </ul>
     </div>
 </footer>

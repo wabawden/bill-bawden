@@ -1,14 +1,18 @@
 .footer {
     position: fixed;
+    z-index: 1;
     left: 0;
     bottom: 0;
     width: 100%;
     color: $light-gray;
     text-align: center;
+    background-color: $aqua;
+    padding-top: 8px;
   }
 
   .footer-icons {
       list-style: none;
+      padding-inline-start: 0px;
       li {
           display: inline;
           
