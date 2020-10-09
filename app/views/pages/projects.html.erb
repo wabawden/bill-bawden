@@ -76,10 +76,9 @@
     <div class="project-info text-center">
       <h1>Mini-Projects</h1>
     </div>
-    <div class="mini-projects">
+    <div class="mini-projects d-flex flex-wrap justify-content-center">
       <div class="mini-project text-center">
-        <div class="mini-project-image" style="background-image: url('<%= image_path 'ccktls.png' %>'); background-size: cover">
-        <p>sadasdad</p>
+        <div class="mini-project-image" style="background-image: url('<%= image_path 'ccktls.png' %>'); background-size: cover; border-radius: 5px">
         </div>
         <div class="mini-project-info">
           <h2>.ccktls</h2>
@@ -90,6 +89,51 @@
           </p>
         </div>
       </div>
+
+      <div class="mini-project text-center">
+        <div class="mini-project-image" style="background-image: url('<%= image_path 'thinkboard.png' %>'); background-size: cover; border-radius: 5px">
+        </div>
+        <div class="mini-project-info">
+          <h2>ThinkBoard</h2>
+          <p>Simple React app. Post anonymous post-it notes.</p>
+          <p>
+            <span><%= link_to 'Web', 'http://react-thinkboard.herokuapp.com/' , target: :_blank %></span> / 
+            <span><%= link_to 'GitHub', 'https://github.com/wabawden/rails-react-thinkboard', target: :_blank %></span>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="mini-project text-center">
+        <div class="mini-project-image" style="background-image: url('<%= image_path 'thenews.png' %>'); background-size: cover; border-radius: 5px">
+        </div>
+        <div class="mini-project-info">
+          <h2>The News in 30 Words</h2>
+          <p>Grabs today's most frequently used headline words from news-api.</p>
+          <p>
+            <span><%= link_to 'Web', 'https://thenewsin30words.herokuapp.com/' , target: :_blank %></span> / 
+            <span><%= link_to 'GitHub', 'https://github.com/wabawden/rails-news-api', target: :_blank %></span>
+          </p>
+        </div>
+      </div>
+    
+
+      <div class="mini-project text-center">
+        <div class="mini-project-image" style="background-image: url('<%= image_path 'epl.png' %>'); background-size: cover; border-radius: 5px">
+        </div>
+        <div class="mini-project-info">
+          <h2>Colourful EPL</h2>
+          <p>A colourful live Premier League.</p>
+          <p>
+            <span><%= link_to 'Web', 'http://colourful-epl.herokuapp.com/' , target: :_blank %></span> / 
+            <span><%= link_to 'GitHub', 'https://github.com/wabawden/rails-colourful-epl', target: :_blank %></span>
+          </p>
+        </div>
+      </div>
+    
+
+
+
     </div>
   <div style="height: 300px"></div>
 </div>
